@@ -483,6 +483,8 @@ textarea{
 
 .social a{
     color: #fff;
+    width:30px;
+    margin:auto;
 }
 
 .instagram:hover{
