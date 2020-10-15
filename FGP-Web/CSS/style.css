@@ -1,0 +1,762 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Navigation Styles */
+.my-nav{
+    background-image: url(../images/sun.jpg);
+    height:500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgb(163, 163, 163);
+    
+}
+
+.overlay{/* adds opacity filter to background image */
+    background: rgba(0, 0, 0, 0.35);
+    height:500px;
+}
+
+.navbar{
+    background-color: #171717!important;
+    z-index: 10;
+    width: 100%;
+    top:0px;
+   
+    
+}
+
+.navbar .navbar-brand{
+    color: #fff;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 1.6rem;
+    letter-spacing: .12rem;
+}
+
+
+.navbar .navbar-nav .nav-item a{
+    color: #fff !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+.navbar .navbar-nav .nav-item a:hover{
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-bottom: 2px solid rgb(243, 243, 243);
+    transition: ease-in 0.1s;
+    height: 43px;
+}
+
+.navbar .navbar-nav{
+    margin:auto;
+}
+
+.navbar-brand{
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+.navbar-brand:hover{
+    color: rgba(255, 255, 255, 0.8) !important;
+}/* End of Navigation styles*/
+
+
+/* Header Styles */
+.head-text{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.979);
+    padding-top: 100px;
+    font-family: 'Great Vibes', cursive; 
+}
+
+.head-text h1 {
+    font-size: 5rem;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+.head-text h2{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .5rem;
+    text-transform: uppercase;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+    font-size: 30px;
+}
+
+
+.head-text p{
+    font-size: 2rem;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}/* End of Headerstyles*/
+
+
+/* About Me Styles */
+.about-me{
+    display: flex;
+    align-items: center;
+    background-color: #171717;
+    color: #fff;
+    justify-content: center;      
+}
+
+hr{
+    background-color: #fff;
+    width:78%;
+}
+
+.pro-img{
+    width:600px;
+    opacity: 0.7;   
+}
+
+.about-me h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-weight: 600;  
+}
+
+.about-me p{
+    width: 80%;
+    min-width: 600px;
+    line-height: 1.8em;
+}
+
+.container{
+    align-self: center;
+}
+
+.about-texts{
+    padding-left: 250px;
+}
+
+.overlay-2{
+    order:1;
+}/* End of About Me styles*/
+
+
+
+/* Portfolio Styles */
+.portfolio h1, h3{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.portfolio h1{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3em;
+}
+
+.portfolio h3{
+    margin-top: 10px;
+    font-size: 22px;
+    color:#BE3333;
+    margin-bottom: 50px;
+}
+
+.portfolio hr{
+    margin: auto;
+    width:50%;
+}
+
+
+.images{
+    width:300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.portfolio button{
+    text-align: center;
+    width:120px;
+    padding:10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #171717;
+    color:#E9E9E9;
+    font-weight: 600;
+    border: none;
+    border-radius: 2em;   
+}
+
+.images-conatiner{
+    text-align: center;
+}
+
+#button-conatiner{
+    text-align: center;
+    margin-top: 30px;
+} /* End of Portfolio styles*/
+
+
+
+/* Services Styles */
+.service-h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    padding-top: 30px;
+    font-weight: 600;
+    letter-spacing: .3em;
+    text-transform: uppercase;  
+}
+
+.services hr{
+    margin: auto;
+    width:50%;
+}
+
+#service-container{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#service-container h1{
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+
+.services h3{
+    margin-top: 10px;
+    font-size: 22px;
+    color:#BE3333;
+}
+
+#service-container p{
+    padding: 10px 48px 0px 40px;
+    margin-top: 30px;
+   
+    border-right: 1px solid #171717;
+}
+
+#service-container .engagement-p{
+    border-right: none;
+}
+
+.services{
+    background-color: #F0F0F0;
+    padding-bottom: 70px;
+}
+
+.service-images{
+    width:300px;  
+}
+
+.wrapper-service{
+    display: flex;
+    justify-content: center;
+}/* End of Services styles*/
+
+
+
+/* Testimonial Styles */
+.testimonialSection{
+    background-color: #fff;
+    height:500px;
+}
+
+.testimonialSection hr{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.testimonialSection h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    padding-top: 30px;
+    font-weight: 600;
+    letter-spacing: .3em;
+    text-transform: uppercase;  
+}
+
+.testimonialSection h3{
+    font-size: 22px;
+    color:#BE3333;
+    margin-bottom: 50px;
+}
+
+.customer-words{
+    width:400px;
+    padding-right: 30px;
+    position: relative;
+    top:50px;
+}
+
+.customer-signature{
+    padding-top: 80px;
+    
+}
+
+.customer-img{
+    width:170px;
+    height:170px;
+    border-radius: 100px;
+    margin-bottom: 120px;
+}
+
+
+.carousel-indicators li{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(0, 0, 0, 0.6);
+}/* End of Testimonial styles*/
+
+
+
+/* Gallery styles */
+.gallery{
+    background-color: #F0F0F0;
+    height:700px;
+    margin-bottom: 200px;
+}
+
+.gallery h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+    padding-top: 30px;
+    font-weight: 600;
+    letter-spacing: .3em;
+    text-transform: uppercase; 
+}
+
+.gallery h3{
+    font-size: 22px;
+    color:#BE3333;
+    padding-top:10px;
+}
+
+.gallery hr{
+    margin: auto;
+    width: 50%;
+}/* End of Gallery styles*/
+
+
+
+/* Footer styles */
+footer{
+    background-color: #171717;
+    height:750px;
+}
+
+.scroll-up-button{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 40px;
+    height: 50px;
+}
+
+
+.scroll-up-button a{
+    color: rgba(32, 138, 236, 0.883);
+}
+
+.scroll-up-button a:hover{
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 38px;
+    transition: ease-in-out .1s;
+}
+
+footer h1{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color: rgba(255, 255, 255, 0.979);
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+    position: relative;
+    
+    
+}
+
+footer h2{
+    text-align: center;
+    position: relative;
+    top:-12px;
+    color: rgba(255, 255, 255, 0.979);
+    font-weight: 00;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .3em;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+footer p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.979);
+    position: relative;
+    top:-15px;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+footer, .fas{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.979);
+    position: relative;
+    top:-12px;
+    font-size: 30px;  
+}
+
+.container-footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;    
+}
+
+.contact h1, .questionare h1, .social h1{
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.questionare p{
+    text-align: left;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;   
+}
+
+.questionare hr{
+    width:25%;
+}
+
+.contact hr{
+    width:50%;
+    margin-bottom: 50px;
+}
+
+.contact p{
+    text-align: left;  
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    height:300px; 
+}
+
+form input{
+    background-color: rgba(255, 255, 255, 0.945);
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+::placeholder{
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+textarea{
+    background-color:rgba(255, 255, 255, 0.945);
+    font-size: 18px;
+    padding-left: 10px;
+    
+}
+
+.social{
+   display: flex;
+   flex-direction: column;
+}
+
+.social i{
+    margin-top: 25px ;
+}
+
+.social a{
+    color: #fff;
+}
+
+.instagram:hover{
+    color:#C13584;
+    transition: ease-in .2s;
+}
+.facebook:hover{
+    color:#3b5998;
+    transition: ease-in .2s;
+}  
+.twitter:hover{
+    color:#00acee;
+    transition: ease-in .2s;
+}
+
+footer button{
+    width: 100px;
+    font-size: 18px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    color: rgba(24, 24, 24, 0.835);
+    background-color: rgba(242, 246, 246, 0.883);
+}
+
+footer button:hover{
+    background-color: #f81010c0;
+    transition: ease-in .2s;
+}
+
+footer .copyright{
+    background-color: #171717;
+    margin-top:30px ;
+    height:50px;
+    padding-bottom: 100px;
+}
+
+.copyright p{
+    margin: auto;
+    padding-top: 80px;
+    font-size: 14px;  
+}/* End of Footer styles*/
+
+
+
+/* For mobile responsiveness - breakpoints (1500px, 1180px, 990px) */
+
+@media all and (max-width:1500px) {
+ 
+
+
+.about-texts{
+    padding-left:30px;
+    padding-top: 30px;
+}
+
+
+.about-me p{
+    width: 75%;
+    min-width: 280px;
+    line-height: 1.8em;
+}
+
+
+hr{
+    background-color: #fff;
+    width:70%;
+}
+
+.head-text h1 {
+    font-size: 4rem;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+.head-text p{
+    font-size: 2rem;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+}
+
+}
+
+
+@media all and (max-width:1180px) {
+
+    .pro-img{
+        width:600px;
+        height:1000px;   
+    }
+    
+
+    .about-me p{
+        width: 80%;
+        min-width: 280px;
+        line-height: 1.4em;
+        
+    }
+
+
+}
+
+
+@media all and (max-width:990px) {
+
+
+    .navbar-toggler{
+        background-color: #695e5e;
+    }
+
+    .head-text{
+        text-align: center;
+        color: rgba(255, 255, 255, 0.979);
+        padding-top: 50px;
+        font-family: 'Great Vibes', cursive;     
+    }
+
+    .head-text h1 {
+        font-size: 3.5rem;
+        text-shadow:0px 5px 5px rgb(24, 24, 24);
+    }
+
+
+
+    .head-text p{
+        font-size: 1.5rem;
+        text-shadow:0px 5px 5px rgb(24, 24, 24);
+    }
+
+    .pro-img{
+       display: none;  
+    }
+
+    .about-me{
+        background-image: url(../images/profile-img.jpg);
+        background-size: cover;
+        background-position: center;
+       
+    }
+
+    .overlay-2{
+        background: rgba(0, 0, 0, 0.8);
+        width:100%;
+    }
+
+    #service-container{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    #service-container p{
+        padding: 10px 0px 0px 0px;
+        max-width: 50%;
+        border-right: none;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .service-images{
+        width:300px;
+        max-width: 70%;
+    }
+
+
+    .navbar .navbar-nav .nav-item a:hover{
+        border-width: 1px;
+        
+    }
+    
+.Services-container{
+    min-width: 30%;
+}
+
+.customer-words{
+    max-width:100%;
+    padding-right: 30px;
+    padding-left: 20px;
+    position: relative;
+    top:50px;
+}
+
+
+.customer-signature{
+    padding-top: 50px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.customer-img{
+    max-width:50%;
+    margin-right: 10px;
+}
+
+.testimonialSection{
+    width:100%;
+    height:100%;
+}
+
+.testimonialSection h1, .gallery h1, .service-h1, .portfolio h1, .about-me h1{
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+
+.container-footer{
+    flex-direction: column;
+    padding-left: 25px;
+      
+}
+
+footer{
+    height:100%;
+    padding-bottom: 25px;
+}
+
+.social{
+    padding-top: 80px;
+ }
+
+.social h1{
+    text-align: center;
+}
+
+form{
+    max-width:80%;
+}
+
+.questionare p{
+    padding-right:15px;
+    text-align: center;
+    
+}
+
+.contact hr{
+   position: relative;
+   left: -55px;
+   width: 55%;
+}
+
+.contact p{
+    margin-top: 30px;
+}
+
+footer .copyright{
+    position: relative;
+    top:40px;
+    height:100%;
+    
+}
+
+
+.copyright p{
+    padding:20px 10px 0px 10px;
+    font-size: 12px;
+    position: relative;
+    top:60px;
+}
+
+.contact, .contact hr, .questionare, form, .questionare h1, .questionare hr{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact{
+    position: relative;
+    left:25px;
+}
+
+.questionare{
+    width:90%;
+}
+
+
+}
