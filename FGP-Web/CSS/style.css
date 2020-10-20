@@ -817,7 +817,7 @@ footer .copyright{
 
 @media all and (max-width:670px) {
     .carousel-control-prev-icon, .carousel-control-next-icon{
-        display: none;
+     display: none;
     }
 
 }
