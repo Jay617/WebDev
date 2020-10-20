@@ -811,10 +811,14 @@ footer .copyright{
 
 .questionare{
     width:90%;
+  }
+  
 }
-    
 
-     
-
+@media all and (max-width:670px) {
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        display: none;
+    }
 
 }
+
