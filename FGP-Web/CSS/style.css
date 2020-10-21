@@ -562,6 +562,7 @@ footer button{
     font-weight: 600;
     color: rgba(24, 24, 24, 0.835);
     background-color: rgba(242, 246, 246, 0.883);
+    z-index:30px;
 }
 
 footer button:hover{
