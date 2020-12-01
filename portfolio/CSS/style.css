@@ -1,0 +1,682 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.hobbies-icons{
+    width:50px;
+}
+
+nav, nav ul{
+    display: flex;
+    
+}
+.navbar{
+    padding: 0px;
+    background-color: #254B67 !important;
+}
+
+.navbar-nav{
+   margin: auto;
+}
+
+
+ul{
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav li a{
+    color: #fff !important;
+    margin-right: 0px;
+    font-family:Staatliches;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: .1em;
+    padding-left: 15px !important;
+}
+
+.navbar-toggler{
+    background-color: #ececec !important;
+    margin-right: 20px;
+}
+
+nav li a:hover{
+    color:rgb(235, 235, 235);
+    text-decoration:none;
+    border-bottom: 2px #53CF8C solid ;  
+}
+
+.logo{
+   width:100px;
+   position: relative;
+   top:-20px;
+}
+
+
+
+.left, .right{
+    color:#53CF8C;
+}
+
+header{
+    background-color: #254B67;
+    color:#fff;
+    font-family:Staatliches;
+    padding-bottom: 120px;
+}
+
+header h1, header h2 {
+    font-size: 50px;
+    padding-left: 10px;
+    
+}
+
+header h3{
+    font-size: 36px;
+    color: #53CF8C;
+}
+
+header h1{
+    border-left: 3px #53CF8C solid;
+    padding-left: 8px;
+}
+
+.text-wrap{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;   
+}
+
+.pic-profile{
+    margin: auto;
+    position: relative;
+    top:-80px;
+    border: 2px #40a770 solid;
+    border-radius: 100%;
+    width: 180px;
+    padding: 3px;
+    border-width: 3px;
+    
+}
+
+.pro-pic{
+    width:168px;
+    height:168px;
+    border-radius: 100%;
+}
+
+h2{
+    text-align: center;
+    font-family:Staatliches;
+    font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: #53CF8C;
+    
+}
+
+.hero-pic{
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px; 
+}
+
+.about{
+    margin-bottom: 200px;
+}
+
+.cover-intro{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+
+.about-box{
+    width: 100%;
+    background-color: #254B67;
+    color:#fff;
+    padding: 20px 20px 20px 30px;
+    line-height: 1.4e;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 20px;   
+}
+
+.button-wrap button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #53CF8C;
+    border: none;
+    padding: 10px;
+    font-family:Staatliches;
+    text-align: center;
+    width: 200px;
+    color:rgb(255, 255, 255);
+    text-shadow:0px 1px 1px rgb(24, 24, 24);
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;  
+}
+
+.button-wrap button:hover{
+    background-color:#40a770;
+    transition: ease-in .2s;
+}
+
+.personal-box{
+    background-color: #254B67;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.personal-box h4{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+
+.personal-box p{
+    font-size: 16px;
+    padding: 0;
+    padding-left: 30px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.details span{
+    color: #53CF8C;
+    font-family:Staatliches;
+    letter-spacing: .1em;
+}
+
+.about-box h3{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #fff;
+    font-family:Staatliches;
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+
+.hobbies h4, .hobbies h3{
+    color: #fff;
+    font-family:Staatliches;
+    font-size: 20px;
+    letter-spacing: .1em;
+    text-align: center;
+    margin-bottom:20px;
+
+    
+}
+
+.img-hobbies{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.hobbies{
+    background-color: #254B67;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr{
+    width:60%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.h2-2{
+    margin-top: 100px;
+    
+}
+
+.progress{
+    margin-bottom: 20px;
+}
+
+.progress-bar{
+    background-color: #40a770;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.my-skills h3{
+    font-family:Staatliches;
+    letter-spacing: .2rem;
+    font-size: 20px;
+}
+
+.img-edu{
+    width:40px;
+    margin-left: 150px;
+}
+
+.ul-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 300px;
+}
+
+
+
+.dates{
+    margin-left:60px;
+    padding: 5px 95px 5px 95px;
+    background-color:#254B67;
+    color:#fff ;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.dates-2{
+    margin-left:70px;
+    padding: 5px 100px 5px 100px;
+    background-color:#254B67;
+    color:#fff ;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.dates-3{
+    margin-left:100px;
+    padding: 5px 100px 5px 100px;
+    background-color:#254B67;
+    color:#fff ;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.education ul{
+    padding-left: 00px;
+    
+}
+
+.education ul li{
+    font-family:Staatliches;
+    font-size: 20px;
+    width:70%;   
+}
+
+.education p{
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+
+.my-projects{
+    margin-top: 200px;
+}
+
+.project-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.project-card{
+    margin-top: 30px;
+    border: 2px rgb(177, 177, 177) solid;
+    padding: 5px;
+    border-radius: 5px;
+    width:314px;
+}
+
+.project-img{
+    width:300px;
+}
+
+ .project-card a :hover{
+    transition: ease-in .1s;
+    
+    width: 295px;
+    
+}
+
+.my-projects{
+    margin-bottom: 200px;
+}
+
+.my-projects p{
+    text-align: center;
+    font-family:Staatliches;
+    font-size: 20px;
+    background-color:#1a374b;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    color: #fff;
+    letter-spacing: .1rem;
+    margin: 0;
+}
+
+.card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.cards{
+    background-color: #40a770;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    text-shadow:0px 5px 5px rgb(24, 24, 24);
+    box-shadow:0px 5px 10px rgb(98, 98, 98);
+    margin-right: 5px;
+}
+
+.card-wrap h4{
+    text-align: center;
+    color: #fff;
+    font-family:Staatliches;
+    letter-spacing: .1rem;
+    padding-top: 10px;
+    
+}
+
+.card-wrap p{
+    text-align: center;
+    width:310px;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin: 0;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;  
+}
+
+.icon-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.card-icon{
+    width:90px;
+    padding: 5px;
+}
+
+.texts{
+    background-color: #254B67;
+    
+    
+}
+
+.color-text{
+    color: #53CF8C;
+}
+
+footer{
+    margin-top: 300px;
+    background-color: #254B67;
+    height:600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.inputField, .textField{
+    margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 5px;
+    padding-left: 15px;  
+}
+
+.inputField{
+    height: 40px;
+}
+
+.textField{
+    height:150px;
+}
+
+footer{
+    height:auto;
+}
+
+footer button{
+    height:40px;
+    width: 200px;
+    border-radius: 5px;
+    background-color:#53CF8C;
+    border: none;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-shadow:0px 1px 1px rgb(24, 24, 24);
+    text-transform: uppercase;
+}
+
+footer button:hover{
+    background-color:#40a770;
+    transition: ease-in .2s;
+}
+
+footer h3{
+    color: #fff;
+    font-family:Staatliches;
+    letter-spacing: .2rem;
+    padding-top: 40px;
+    width: 500px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: #53CF8C;
+    width:150px;
+}
+
+footer p{
+    width:500px;
+    color:rgb(233, 233, 233);
+}
+
+.wrap-footer-content{
+   display: flex;
+   justify-content: space-between;   
+}
+
+.social-media{
+   padding-left: 300px;
+}
+
+.fa-facebook, .fa-twitter, .fa-github{
+    padding-left: 50px;
+    display: block;
+    font-size: 35px;
+    padding-top: 50px;
+    color: rgb(199, 199, 199);
+    width:30px;
+}
+
+.social-icons-link{
+    text-decoration: none !important; 
+}
+
+.fa-github:hover{
+    color:black;
+    
+}
+
+.fa-facebook:hover{
+    color:#2a61d8;
+    
+}
+
+.fa-twitter:hover{
+    color:#00acee;
+    
+}
+
+.copyright{
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 0;
+    background-color: #254B67;
+    padding: 10px;
+}
+
+
+
+
+@media all and (max-width:1024px){
+    .hero-pic{
+        width: 500px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .about-wrap{
+        text-align: center;
+        width: 100%;
+     }
+
+
+}
+
+
+@media all and (max-width:990px){
+
+    .wrap-footer-content{
+        display: flex;
+        flex-direction: column;
+           
+     }
+
+     .social-media{
+        margin: auto;
+        padding-left: 0px;
+        padding-top: 100px;
+        
+     }
+
+     nav li a:hover{
+        color:rgb(187, 187, 187) !important;
+        text-decoration:none;
+        border-bottom: none;  
+    }
+
+
+     .project-wrap{
+        display: flex;
+        flex-wrap: wrap;
+           
+    }
+
+    footer p{
+        width:100%;
+    }
+
+    .ul-wrap{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 100px;
+    }
+
+
+    .dates{
+        margin-left:20px;
+        padding: 5px 20px 5px 10px;
+        background-color:#254B67;
+        color:#fff ;
+        font-weight: 100;
+        font-size: 15px;
+       
+    }
+    
+    .dates-2{
+        margin-left:10px;
+        padding: 5px 20px 5px 20px;
+        background-color:#254B67;
+        color:#fff ;
+        font-weight: 100;
+        font-size: 15px;
+    }
+    
+    .dates-3{
+        margin-left:20px;
+        padding: 5px 20px 5px 20px;
+        background-color:#254B67;
+        color:#fff ;
+        font-weight: 100;
+        font-size: 15px;
+    }
+
+
+    .img-edu{
+        width:40px;
+        margin-left: 0px;
+    }
+
+    .hero-pic{
+        display: none;
+    }
+    
+}
+
+
+@media all and (max-width:595px){
+    .about-wrap{
+       text-align: center;
+        width: 100%;
+    }
+
+    .text-wrap{
+        text-align: center;
+        width: 100%;
+    }
+
+    header h1, header h2 {
+        font-size: 40px;
+        padding: 0;
+        border-left: none;
+        
+    }
+    
+    header h3{
+        font-size: 18px;
+        color: #53CF8C;
+    }
+
+
+  .about-box{
+      width:100%;
+  }
+
+  
+
+    
+
+
+
+
+}
