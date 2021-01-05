@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Colt Web Course"
+		},
+		{
+			"path": "..\\..\\..\\Colt-Web-Development-Course"
+		},
+		{
+			"path": "..\\..\\..\\BootStrap"
+		},
+		{
+			"path": "..\\..\\..\\Carousel"
+		},
+		{
+			"path": "..\\..\\..\\Navbar-scrollpsy"
+		},
+		{
+			"path": "..\\..\\..\\Collapse"
+		},
+		{
+			"path": "..\\..\\..\\FGP-Web"
+		},
+		{
+			"path": "..\\..\\..\\portfolio"
+		},
+		{
+			"path": "..\\..\\..\\facebook"
+		},
+		{
+			"path": "..\\..\\..\\landing-page"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing-page"
+	}
+}

@@ -1,0 +1,496 @@
+
+/*
+.bar {
+    border: 2px solid #84E403;
+    width: 200px;
+    border-radius: 10px;
+    padding:5px;
+    display: flex;
+    
+    
+}
+
+
+.inner-bar {
+    border:5px solid #84E403;
+    border-radius: 20px;
+    width: 95px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+    
+    }
+
+
+    
+    .inner2-bar {
+        border:5px solid #84E403;
+        width:70px;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        } */
+
+/*
+@keyframes yourAnimation{
+    0%{
+        transform: translateX(0);
+        }
+    50%{
+        transform: translateX(50);
+        }
+    100%{
+        transform: translateX(60px);
+        }
+}
+
+.inner-bar{
+    animation: yourAnimation 2s  0s ease-in-out;
+}*/
+
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353A3B;
+    
+}
+
+
+
+header {
+    background-color: #353A3B;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+
+header img {
+   width:50px;
+   height:40px;
+   padding: 0px 5px 5px;
+
+   }
+
+.logo {
+    display: inline-flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family: 'Redressed', cursive;
+    
+   
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-decoration-color: #00D1FF;
+    }
+
+
+nav ul{
+     display: flex;
+     list-style-type: none;
+     padding:20px;
+     margin-right:20px;
+     }
+
+nav a{
+    text-decoration: none;
+    margin:20px;
+    color:#fff;
+    font-family: roboto;
+    font-size: 18px;
+    }
+
+nav a:hover {
+    border-bottom: 3px solid #00D1FF;
+    color:#dfdfdf;
+    text-decoration: none;
+    
+}
+
+.polygons{
+    width:100%;
+    height:500px;
+    position: absolute;
+
+}
+
+.h2-welcome {
+    color:#fff;
+    text-align: center;
+    font-size:45px;
+    padding-top:50px;
+    font-family: 'Reem Kufi';
+    font-weight: lighter;
+    
+}
+
+.h2-hello-im-john {
+    padding: 0px;
+    float: left;
+    color:#fff; 
+    font-family: 'Reem Kufi';
+    font-size: 40px;
+    position: absolute;
+    top:2em;
+    width:100%;
+    left:-8em;
+    font-weight: lighter;
+    }
+
+.pic1 {
+    width:100%;
+    height:300px;
+    text-align: center;
+    position: relative;
+    }
+
+.pic-profile {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+  }
+
+  .vector{
+      position: absolute;
+      z-index: -11;
+      width: 100%;
+      height:680px;
+      top:21.9em;
+  }
+
+#about{
+
+    color:#fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Reem Kufi';
+    }
+
+#aboutHighlight {
+    color:#fff;
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+    top:-0.8em;
+    opacity: 30%;
+    font-family: 'Reem Kufi';
+}
+
+.paragraphOne h2{
+    color:#fff;
+    font-family: 'Reem Kufi';
+    text-align: center;
+    font-size: 58px;
+    position: relative;
+    top:-20px;
+}
+
+
+.paragraphOne{
+
+    position: relative;
+    top:-15px;
+}
+
+.paragraphOne p {
+    width:499px;
+    margin: 0 auto;
+    font-size: 18px;
+    color:#fff;
+    line-height: 1.4em;
+    font-family: 'Reem Kufi';
+}
+
+.aboutMe button{
+    padding: 10px;
+    width:180px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Reem Kufi';
+    font-size: 20px;
+    font-weight: bolder;
+    color:#fff;
+    background-color: rgb(0, 203, 248);
+    box-shadow:0px 5px 10px rgba(0,0,0,0.5);
+    
+}
+
+.aboutMe button:hover{
+    cursor: pointer;
+    background-color: #00161b;
+    transition: ease-in 0.3s;
+}
+
+
+.sidePic{
+    width:450px;
+    position:absolute;
+    bottom:0;
+   
+    
+    
+}
+
+.boxPic{
+   width:1500px; 
+   margin: 0 auto ;
+   
+}
+
+.myServices h2{
+    text-align: center;
+    font-family: 'Reem Kufi';
+    padding:100px;
+    font-size: 50px;
+    color: #fff;
+    text-shadow:0px 15px 10px rgb(24, 24, 24);
+}
+
+.wrapperBox{
+    display: flex;
+    justify-content: center;
+}
+
+.serviceBox{
+    background-color: #1C1C1C;
+    height: 570px;
+    margin-left: 70px;
+    box-shadow:0px 15px 70px rgba(0,0,0,0.5);
+    width:100%;
+    max-width: 300px;
+    }
+
+.picService{
+    width:100%;
+    max-width: 300px;
+    height:250px;
+    
+}
+
+.serviceTitle{
+    font-family: 'Niconne', cursive;
+    text-align: center;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 38px;
+}
+
+.pricing{
+    color: #fff;
+    font-family: 'Reem Kufi';
+    text-align: center;
+    font-size: 20px;
+}
+
+.serviceBox ul{
+   position: relative;
+   left:40px;
+   color: #fff;
+   line-height: 3em;
+   padding-top: 20px;
+   font-family: 'Reem Kufi';
+   font-size: 16px;
+}
+
+
+.slideDots{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.testimonialSection{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: #1C1C1C;
+    padding:100px;
+    position: relative;
+
+}
+
+.ContainerBox h1{
+    color: #fff;
+    font-family: 'Reem Kufi';
+    font-size: 50px;
+    position: relative;
+    top:100px;
+
+}
+
+.customersWords{
+    width:500px;
+    color: #fff;
+    font-family: 'Reem Kufi';
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+
+footer{
+    
+    height:550px;
+    margin-top: 20em;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    background-image:url('../Img/Vector2.png');
+    background-size: cover;
+    background-color: #1C1C1C;    
+    }
+
+.footerLinks{
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #00D1FF;
+    font-family: 'Reem Kufi';
+    font-size: 18px;
+}
+
+#contact{
+    color: #fff;
+    font-family: 'Reem Kufi';
+    position: relative;
+    top:2em;   
+}
+
+
+.photoGallery, .socialMedia, .latest{
+    position: relative;
+    top:8em;  
+}
+
+.photoGallery{
+    width:320px;
+    text-align: center;
+
+}
+
+
+.galleryPics{
+    width:150px;
+    padding-top: 10px;
+    
+}
+
+.socialMedia ul, .latest ul{
+    list-style: none;
+    line-height: 4.5em;
+}
+
+.socialLinks, .latestLinks{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Reem Kufi';
+    font-size: 17px;
+}
+
+.socialLinks:hover, .latestLinks:hover{
+    text-decoration: underline;
+    color:#fff;
+}
+
+
+
+.formContainer{
+    display: block;
+    width:0px;
+    position: relative;
+    top:1.5em;   
+}
+
+
+.questions{
+    position: relative;
+    top:3em;
+    color: #fff;
+}
+
+
+.inputField, .textField{
+    margin-top: 2em;
+    width:380px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.877);
+    padding-left: 5px;
+    
+}
+
+.inputField{
+    border:none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    background-color: transparent;
+    
+}
+
+.formContainer ::placeholder{
+   color: #353A3B;
+
+}
+
+
+.formContainer button{
+    width:100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Reem Kufi';
+    font-size: 16px;
+    background-color:#00D1FF;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top:0.0em;
+    }
+
+.formContainer button:hover{
+    background-color: #00161b;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+
+
+.copyright{
+  color:#fff;
+  padding:5px;
+  background-color:rgba(0, 208, 255, 0.79);
+  width: 100%;
+  margin:0;
+  
+  
+  
+}
+
+.socialmediaIcons{
+    position: absolute;
+    width: 100%;
+    top:206rem;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.icons{
+    width:35px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.icons:hover{
+    width:38px;
+    transition: ease-in 0.1s;
+}
+
+
+

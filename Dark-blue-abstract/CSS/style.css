@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.carousel-inner{
+    background-color:#1C1C1C;
+    
+    
+}
+
+
+.Services-container p{
+    width:370px;
+    height:30px;
+    margin:45px 40px 100px 0px;
+    padding:10px 45px 0px 0px;
+    
+}
+
+
+.carousel-inner img{
+    width:150px;
+    height:150px;
+    margin-top:20px;
+    border-radius: 100px;
+}
+
+
+
+
+.wrapper-service{
+    display:flex;
+    justify-content: center;
+}
+
+.wrapper-service p{
+    color:#f1f1f1;
+}
+
+.carousel-wrapper{
+    width:900px;
+}
